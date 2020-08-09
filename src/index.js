@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './quiz/index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet" />
     <App />
   </React.StrictMode>,
   document.getElementById('root')
